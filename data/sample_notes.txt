@@ -1,0 +1,15 @@
+John Doe
+email: john.doe@example.com
+phone: 4155552671
+skills: python, java, c++, js
+Software Engineer at Google
+
+---
+
+Bob Builder
+email: bob@builder.com
+phone: +1 206 555 0123
+skills: rust, golang, k8s
+Software Engineer at Amazon
+linkedin.com/in/bob-builder
+github.com/bobbuilder

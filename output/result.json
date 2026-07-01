@@ -1,0 +1,286 @@
+[
+  {
+    "candidate_id": "f3184876-fc76-58bc-8174-e75484dfb35a",
+    "education": [],
+    "emails": [
+      "john.doe@example.com"
+    ],
+    "experience": [
+      {
+        "company": "Google",
+        "end": null,
+        "start": null,
+        "summary": null,
+        "title": "Software Engineer"
+      }
+    ],
+    "full_name": "John Doe",
+    "headline": null,
+    "links": {
+      "github": null,
+      "linkedin": null,
+      "other": [],
+      "portfolio": null
+    },
+    "location": null,
+    "overall_confidence": 1.0,
+    "phones": [
+      "+14155552671"
+    ],
+    "provenance": [
+      {
+        "field": "emails",
+        "method": "normalized",
+        "source": "data/sample_candidates.csv"
+      },
+      {
+        "field": "experience",
+        "method": "normalized",
+        "source": "data/sample_candidates.csv"
+      },
+      {
+        "field": "full_name",
+        "method": "normalized",
+        "source": "data/sample_candidates.csv"
+      },
+      {
+        "field": "phones",
+        "method": "normalized",
+        "source": "data/sample_candidates.csv"
+      },
+      {
+        "field": "skills",
+        "method": "normalized",
+        "source": "data/sample_notes.txt"
+      }
+    ],
+    "skills": [
+      {
+        "confidence": 0.6,
+        "name": "cpp",
+        "sources": [
+          "data/sample_notes.txt"
+        ]
+      },
+      {
+        "confidence": 0.6,
+        "name": "java",
+        "sources": [
+          "data/sample_notes.txt"
+        ]
+      },
+      {
+        "confidence": 0.6,
+        "name": "javascript",
+        "sources": [
+          "data/sample_notes.txt"
+        ]
+      },
+      {
+        "confidence": 0.6,
+        "name": "python",
+        "sources": [
+          "data/sample_notes.txt"
+        ]
+      }
+    ],
+    "years_experience": null
+  },
+  {
+    "candidate_id": "c691bffa-b660-54bf-af30-5c81ca888257",
+    "education": [],
+    "emails": [
+      "jane.smith@example.com"
+    ],
+    "experience": [
+      {
+        "company": "Meta",
+        "end": null,
+        "start": null,
+        "summary": null,
+        "title": "Product Manager"
+      }
+    ],
+    "full_name": "Jane Smith",
+    "headline": null,
+    "links": {
+      "github": null,
+      "linkedin": null,
+      "other": [],
+      "portfolio": null
+    },
+    "location": null,
+    "overall_confidence": 1.0,
+    "phones": [],
+    "provenance": [
+      {
+        "field": "emails",
+        "method": "normalized",
+        "source": "data/sample_candidates.csv"
+      },
+      {
+        "field": "experience",
+        "method": "normalized",
+        "source": "data/sample_candidates.csv"
+      },
+      {
+        "field": "full_name",
+        "method": "normalized",
+        "source": "data/sample_candidates.csv"
+      }
+    ],
+    "skills": [],
+    "years_experience": null
+  },
+  {
+    "candidate_id": "33a7f4df-b99e-5b83-9ce5-5fee75c47c48",
+    "education": [],
+    "emails": [
+      "alice.webb@example.com"
+    ],
+    "experience": [
+      {
+        "company": "Apple",
+        "end": null,
+        "start": null,
+        "summary": null,
+        "title": "Designer"
+      }
+    ],
+    "full_name": "Alice Webb",
+    "headline": null,
+    "links": {
+      "github": null,
+      "linkedin": null,
+      "other": [],
+      "portfolio": null
+    },
+    "location": null,
+    "overall_confidence": 1.0,
+    "phones": [],
+    "provenance": [
+      {
+        "field": "emails",
+        "method": "normalized",
+        "source": "data/sample_candidates.csv"
+      },
+      {
+        "field": "experience",
+        "method": "normalized",
+        "source": "data/sample_candidates.csv"
+      },
+      {
+        "field": "full_name",
+        "method": "normalized",
+        "source": "data/sample_candidates.csv"
+      }
+    ],
+    "skills": [],
+    "years_experience": null
+  },
+  {
+    "candidate_id": "13e78052-eef9-4537-b625-2caee73178b7",
+    "education": [],
+    "emails": [],
+    "experience": [],
+    "full_name": null,
+    "headline": null,
+    "links": {
+      "github": null,
+      "linkedin": null,
+      "other": [],
+      "portfolio": null
+    },
+    "location": null,
+    "overall_confidence": 0.0,
+    "phones": [],
+    "provenance": [],
+    "skills": [],
+    "years_experience": null
+  },
+  {
+    "candidate_id": "f708be51-ee93-5c31-b249-2dde86a1fa5d",
+    "education": [],
+    "emails": [
+      "bob@builder.com"
+    ],
+    "experience": [
+      {
+        "company": "Amazon",
+        "end": null,
+        "start": null,
+        "summary": null,
+        "title": "Software Engineer"
+      }
+    ],
+    "full_name": "Bob Builder",
+    "headline": null,
+    "links": {
+      "github": "github.com/bobbuilder",
+      "linkedin": "linkedin.com/in/bob-builder",
+      "other": [],
+      "portfolio": null
+    },
+    "location": null,
+    "overall_confidence": 1.0,
+    "phones": [
+      "+12065550123"
+    ],
+    "provenance": [
+      {
+        "field": "emails",
+        "method": "normalized",
+        "source": "data/sample_notes.txt"
+      },
+      {
+        "field": "experience",
+        "method": "normalized",
+        "source": "data/sample_notes.txt"
+      },
+      {
+        "field": "full_name",
+        "method": "normalized",
+        "source": "data/sample_notes.txt"
+      },
+      {
+        "field": "links",
+        "method": "regex_extracted",
+        "source": "data/sample_notes.txt"
+      },
+      {
+        "field": "phones",
+        "method": "normalized",
+        "source": "data/sample_notes.txt"
+      },
+      {
+        "field": "skills",
+        "method": "normalized",
+        "source": "data/sample_notes.txt"
+      }
+    ],
+    "skills": [
+      {
+        "confidence": 0.6,
+        "name": "go",
+        "sources": [
+          "data/sample_notes.txt"
+        ]
+      },
+      {
+        "confidence": 0.6,
+        "name": "kubernetes",
+        "sources": [
+          "data/sample_notes.txt"
+        ]
+      },
+      {
+        "confidence": 0.6,
+        "name": "rust",
+        "sources": [
+          "data/sample_notes.txt"
+        ]
+      }
+    ],
+    "years_experience": null
+  }
+]
