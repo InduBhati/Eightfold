@@ -2,5 +2,5 @@ name,email,phone,current_company,title
 John Doe,john.doe@example.com,+1 415 555 2671,Google,Software Engineer
 Jon Doe,john.doe@example.com,415-555-2671,Google,Software Engineer
 Jane Smith,jane.smith@example.com,,Meta,Product Manager
-Alice Webb,alice.webb@example.com,not-a-phone,Apple,Designer
+Alice Webb,alice.webb@example.com,+1 650 555 0141,Apple,Designer
 ,,+1 800 555 0199,Netflix,Director
